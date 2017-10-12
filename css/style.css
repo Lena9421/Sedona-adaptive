@@ -1,0 +1,168 @@
+body {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-size: 18px;
+
+    text-transform: uppercase;
+}
+
+.vissualy-hidden {
+    display: none;
+}
+.big-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.main-header {
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.main-header__nav {
+    height: 56px;
+}
+
+.main-header__logo {
+    z-index: 30;
+
+    padding-left: 35%;
+}
+
+.site-navigation__list {
+    min-height: 186px;
+    margin: 0;
+    padding-left: 0;
+
+    list-style-type: none;
+
+    text-align: center;
+
+    color: white;
+    background-color: #9ac0da;
+}
+
+.site-navigation-list__item {
+    height: 55px;
+
+    border-bottom: 1px solid #678ea7;
+}
+
+.main-container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.main-container__intro {
+    z-index: 10;
+
+    height: 389px;
+
+    background-image: url('../img/back-mobile.jpg');
+}
+
+.welcome-text {
+    padding-top: 90px;
+    padding-left: 20px;
+}
+.main-container__about {
+    height: 225px;
+    margin: 0;
+}
+
+.about__title,
+.about__content {
+    width: 255px;
+    margin: 45px 30px 0 30px;
+
+    font-size: 18px;
+
+    text-align: center;
+}
+
+.features {
+    padding-left: 0;
+
+    list-style-type: none;
+}
+.feature {
+    text-align: center;
+}
+.feature--blue {
+    height: 190px;
+
+    font-size: inherit;
+
+    color: white;
+    background-color: #9ac0da;
+}
+.feature--blue .feature__title {
+    margin-top: 0;
+    padding-top: 30px;
+
+    font-size: 18px;
+}
+
+.feature--blue .feature__content {
+    font-size: 14px;
+}
+
+.feature--grey {
+    height: 166px;
+
+    background-color: #eee;
+}
+.feature--grey .feature__title {
+    margin-top: 0;
+}
+
+.feature--bridge {
+    height: 260px;
+}
+
+.feature__content {
+    font-size: 14px;
+}
+.hotel-search {
+    text-align: center;
+}
+
+.hotel-search__call {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.hotel-search__suggestion {
+    width: 257px;
+    margin-left: 40px;
+
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.main-footer {
+    text-align: center;
+}
+
+.social-btn {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    padding-left: 90px;
+
+    list-style-type: none;
+
+    justify-content: space-between;
+}
+.social-btn__item {
+    display: flex;
+    width: 46px;
+    height: 48px;
+
+    background-color: #81b2d1;
+
+    justify-content: center;
+    align-items: center;
+}
