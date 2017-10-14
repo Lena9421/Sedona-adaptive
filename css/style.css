@@ -76,10 +76,12 @@ body {
 .about__content {
     width: 255px;
     margin: 45px 30px 0 30px;
-
     font-size: 18px;
 
     text-align: center;
+}
+.about__content {
+    font-size: 14px;
 }
 
 .features {
@@ -116,8 +118,18 @@ body {
 }
 .feature--grey .feature__title {
     margin-top: 0;
+    padding-top: 30px;
 }
 
+.feature--grey .feature__content {
+    width: 208px;
+    padding: 0 56px;
+    line-height: 25px;
+}
+
+.feature__number {
+    font-size: 14px;
+}
 .feature--bridge {
     height: 260px;
 }
