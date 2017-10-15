@@ -23,12 +23,34 @@ body {
 
 .main-header__nav {
     height: 56px;
+    position: relative;
 }
 
 .main-header__logo {
     z-index: 30;
 
     padding-left: 35%;
+    position: absolute;
+}
+
+.main-header__hamburger {
+    z-index: 30;
+    position: absolute;
+
+    padding-top: 5%;
+    padding-left: 85%;
+    cursor: pointer;
+}
+
+.site-navigation {
+    position: relative;
+}
+
+.site-navigation__exit {
+    position: absolute;
+    top: 7%;
+    left: 85%;
+    cursor: pointer;
 }
 
 .site-navigation__list {
@@ -47,6 +69,7 @@ body {
 .site-navigation-list__item {
     height: 35px;
     padding-top: 20px;
+    cursor: pointer;
 
     box-shadow: 0 1px 0 rgba(1, 1, 1, .2);
 }
@@ -58,7 +81,7 @@ body {
 
 .main-container__intro {
     position: relative;
-    z-index: 10;
+    z-index: 20;
 
     height: 389px;
 
@@ -85,6 +108,7 @@ body {
 }
 .main-container__about {
     position: relative;
+    z-index: 20;
 
     height: 225px;
     margin: 0;
@@ -93,7 +117,7 @@ body {
 .main-container__about::after {
     position: absolute;
     z-index: 30;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
 
     width: 320px;
@@ -104,6 +128,10 @@ body {
     background-image: url('../img/about-tringles.svg');
 }
 
+.main-containter__all-advantages {
+    position: relative;
+    z-index: 10;
+}
 .title {
     margin-top: 0;
 
