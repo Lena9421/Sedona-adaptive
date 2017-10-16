@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext');
+
 body {
     font-family: 'PT Sans', 'Arial', sans-serif;
     font-size: 18px;
@@ -33,7 +35,7 @@ body {
     position: absolute;
 }
 
-.main-header__hamburger {
+.site-navigation__hamburger {
     z-index: 30;
     position: absolute;
 
@@ -44,6 +46,9 @@ body {
 
 .site-navigation {
     position: relative;
+    width: 329px;
+    min-height: 275px;
+    margin: 0 auto;
 }
 
 .site-navigation__exit {
@@ -60,17 +65,19 @@ body {
 
     list-style-type: none;
 
+    width: 320px;
+
     text-align: center;
 
     color: white;
     background-color: #9ac0da;
 }
 
-.site-navigation-list__item {
+.site-navigation__item {
     height: 35px;
     padding-top: 20px;
     cursor: pointer;
-
+    width: 320px;
     box-shadow: 0 1px 0 rgba(1, 1, 1, .2);
 }
 
@@ -88,7 +95,7 @@ body {
     background-image: url('../img/back-mobile.jpg');
 }
 
-.intro__welcome-text {
+.intro__text {
     padding-top: 90px;
     padding-left: 20px;
 }
@@ -132,7 +139,7 @@ body {
     position: relative;
     z-index: 10;
 }
-.title {
+.feature__title {
     margin-top: 0;
 
     font-size: 18px;
@@ -140,7 +147,7 @@ body {
     text-align: center;
 }
 
-.content {
+.feature__content {
     font-size: 14px;
     line-height: 25px;
 
@@ -158,44 +165,53 @@ body {
 .about__content {
     width: 255px;
     margin: 0 30px 0 30px;
+
+
+    font-size: 18px;
+
+    text-align: center;
 }
 .about__title {
     padding-top: 45px;
 }
 .about__content {
     padding-top: 30px;
+    font-size: 14px;
+    line-height: 25px;
+
+    text-align: center;
 }
 
 .features {
-    margin-top: 0;
-    padding-left: 0;
-
-    list-style-type: none;
+  width: 320px;
 }
 
-.feature--blue {
-    height: 190px;
+.feature--ralated {
+    height: 453px;
 
     font-size: inherit;
 
     color: white;
     background-color: #9ac0da;
 }
-.feature--blue .feature__title {
+.feature--ralated .feature__title {
     padding-top: 30px;
+
 }
-.feature--blue:nth-child(1) .content {
+.feature--ralated:nth-child(1) .feature__content{
     width: 257px;
     padding-left: 32px;
+    margin-bottom: 45px;
 }
 
-.feature--blue .content {
+.feature--ralated .feature__content {
     width: 235px;
     padding-left: 42px;
+    margin-bottom: 25px;
 }
-.feature__title--house,
-.feature__title--food,
-.feature__title--souvenirs {
+.feature--apartments .feature__title,
+.feature--food .feature__title,
+.feature--souvenirs  .feature__title{
     position: relative;
 
     margin-bottom: 25px;
@@ -204,63 +220,65 @@ body {
     text-align: left;
 }
 
-.feature__title--house {
+.feature--apartments .feature__title {
     padding-top: 38px;
 }
-.feature__title--house:before {
+.feature--apartments .feature__title:before {
     position: absolute;
     bottom: 0;
-    left: 50px;
+    left: 20px;
 
     width: 39px;
     height: 37px;
 
     content: '';
 
-    background-image: url('../img/house.svg');
+    background-image: url('../img/icon-1.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
-.feature__title--food:before {
+.feature--food .feature__title:before {
     position: absolute;
     bottom: 0;
-    left: 50px;
+    left: 20px;
 
     width: 40px;
     height: 35px;
 
     content: '';
 
-    background-image: url('../img/icon-burger.svg');
+    background-image: url('../img/icon-3.svg');
+    background-repeat: no-repeat; 
 }
-.feature__title--souvenirs:before {
+.feature--souvenirs .feature__title:before {
     position: absolute;
     bottom: 0;
-    left: 50px;
+    left: 20px;
 
     width: 32px;
     height: 38px;
 
     content: '';
 
-    background-image: url('../img/icon-gift.svg');
+    background-image: url('../img/icon-2.svg');
+
 }
-.feature__content--house,
-.feature__content--food,
-.feature__content--souvenirs {
+.feature--apartments .feature__content,
+.feature--food .feature__content,
+.feature--souvenirs .feature__content {
     padding-bottom: 41px;
     padding-left: 70px;
 
     text-align: left;
 }
-.feature__content--house {
+.feature--apartments .feature__content {
     width: 210px;
 }
-.feature__content--food {
-    width: 199px;
-}
 
-.feature__content--souvenirs {
+.feature--souvenirs .feature__content  {
+         width: 199px;
+}
+.feature--food .feature__content{
     width: 180px;
 }
 
@@ -288,9 +306,10 @@ body {
     text-align: center;
 }
 
-.hotel-search__call {
+.hotel-search__title {
     font-size: 21px;
     font-weight: 600;
+    padding-top: 20px;
 }
 
 .hotel-search__suggestion {
@@ -300,21 +319,23 @@ body {
     font-size: 14px;
     line-height: 21px;
 }
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
 .hotel-search__btn {
     width: 280px;
     height: 58px;
 
     font-size: 18px;
 
-    cursor: pointer;
-    text-transform: uppercase;
-
     color: white;
-    border: none;
-    outline: none;
+
     background-color: #81b2d1;
 }
-.main-container__map {
+.map {
     height: 350px;
 
     background-image: url('../img/map-mobile.jpg');
