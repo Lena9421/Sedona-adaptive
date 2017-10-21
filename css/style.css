@@ -13,11 +13,13 @@ body {
 .main-header {
     min-width: 320px;
     margin: 0 auto;
+    z-index: 30;
 }
 
 .main-header__nav {
     height: 56px;
     position: relative;
+    z-index: 30;
 }
 
 .main-header__logo {
@@ -32,6 +34,14 @@ body {
     padding-left: 35%;
     position: absolute;
     z-index: 30;
+    cursor: pointer;
+}
+
+.logo__image {
+    width: 102px;
+    height: 83px;
+    z-index: 30;
+    position: absolute;
 }
 
 .site-navigation__hamburger {
@@ -48,7 +58,7 @@ body {
     width: 329px;
     height: 275px;
     margin: 0 auto;
-    z-index: 10;
+    z-index: 30;
 }
 
 .site-navigation__exit {
@@ -60,7 +70,7 @@ body {
 }
 
 .site-navigation__list {
-    min-height: 186px;
+    height: 220px;
     margin: 0;
     padding-left: 0;
 
@@ -85,6 +95,7 @@ body {
 .main-container {
     min-width: 320px;
     margin: 0 auto;
+    z-index: 10;
 }
 
 .main-container__intro {
@@ -98,17 +109,13 @@ body {
     background-repeat: no-repeat;
 
     margin: 0 auto;
-}
 
-/*@media (min-resolution: 1.5 dppx) {*/
-    /*.main-container__intro {*/
-        /*background-image: url("../img/bg-back-mobile@2x.jpg");*/
-    /*}*/
-/*}*/
+}
 
 .intro__text {
     padding-top: 90px;
     padding-left: 8%;
+    position: absolute;
 }
 
 .main-container__intro::after {
@@ -122,7 +129,7 @@ body {
 
     content: '';
 
-    /*background-image: url('../img/intro-triangle.svg');*/
+    background-image: url('../img/intro-triangle.svg');
 }
 .main-container__about {
     position: relative;
@@ -244,11 +251,11 @@ body {
 }
 
 .feature--apartments .feature__title {
-    padding-top: 38px;
+    margin-top: 48px;
 }
 .feature--apartments .feature__title:before {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 20px;
 
     width: 39px;
@@ -262,7 +269,7 @@ body {
 }
 .feature--food .feature__title:before {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 20px;
 
     width: 40px;
@@ -275,7 +282,7 @@ body {
 }
 .feature--souvenirs .feature__title:before {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 20px;
 
     width: 32px;
@@ -318,8 +325,6 @@ body {
     width: 208px;
     padding: 0 56px;
 }
-
-
 
 .hotel-search {
     width: 320px;
@@ -426,17 +431,25 @@ body {
 /*Tablet*/
 @media only screen
 and (min-width: 768px)
-and (max-width: 1024px) {
+and (max-width: 1200px) {
 
     .main-header {
         min-width: 768px;
         height: 56px;
     }
 
-    .main-header__logo {
+    .logo {
         top: 0;
+        left: 10%;
+        z-index: 30;
+        position: absolute;
     }
-
+    .logo__image {
+        width: 102px;
+        height: 83px;
+        z-index: 30;
+        position: absolute;
+    }
     .site-navigation {
         width: 768px;
         height: 56px;
@@ -470,14 +483,22 @@ and (max-width: 1024px) {
         background-image: url("../img/back-tablet.jpg");
         background-repeat: no-repeat;
         min-width: 768px;
+        height: 518px;
         margin: 0 auto;
         background-size: 768px 518px;
+        z-index: 10;
+    }
+    .intro__greeting {
+        width: 460px;
+        height: 350px;
 
     }
-
     .intro__text {
-        padding-left: 33%;
-    }
+        padding-left: 23%;
+        width: 460px;
+        height: 350px;
+        padding-top: 10%;
+}
 
     .about__title {
         width: 456px;
@@ -507,6 +528,19 @@ and (max-width: 1024px) {
 
     .main-header__logo {
         padding-left: 45%;
+    }
+
+    .logo {
+        width: 102px;
+        height: 83px;
+        z-index: 30;
+    }
+
+    .logo__image {
+        width: 102px;
+        height: 83px;
+        z-index: 30;
+
     }
 
     .site-navigation__hamburger,
@@ -631,7 +665,7 @@ and (max-width: 1024px) {
 
 /*Desktop*/
 @media only screen
-and (min-width: 1024px)
+and (min-width: 1200px)
 and (max-width: 3800px) {
 
     .main-header {
@@ -642,6 +676,11 @@ and (max-width: 3800px) {
     .main-header__logo {
         top: 0;
         position: absolute;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
     }
 
     .site-navigation {
@@ -684,6 +723,8 @@ and (max-width: 3800px) {
 
     .intro__text {
         padding-left: 36%;
+        width: 460px;
+        height: 350px;
     }
     .about {
         height: 208px;
@@ -719,11 +760,17 @@ and (max-width: 3800px) {
         min-width: 1200px;
         min-height: 2640px;
 
-
     }
-
     .main-header__logo {
         padding-left: 45%;
+    }
+    .logo {
+        padding-left: 45%;
+    }
+    .logo__image {
+        width: 188px;
+        height: 96px;
+        z-index: 30;
     }
 
     .site-navigation__hamburger,
@@ -862,7 +909,5 @@ and (max-width: 3800px) {
         flex-direction: row;
         justify-content: space-between;
     }
-
-
 
 }
