@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d15ef08-feab-40e3-9dd2-f39d515cb6e3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/intro-text.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/welcome-text-desktop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/welcome-text-mobile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/welcome-text-tablet.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/intro-triangle.svg" afterPath="$PROJECT_DIR$/img/intro-triangle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logotype-desktop.svg" afterPath="$PROJECT_DIR$/img/logotype-desktop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logotype-mobile.svg" afterPath="$PROJECT_DIR$/img/logotype-mobile.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logotype-tablet.svg" afterPath="$PROJECT_DIR$/img/logotype-tablet.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/welcome-text-desktop.svg" afterPath="$PROJECT_DIR$/img/welcome-text-desktop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/welcome-text-mobile.svg" afterPath="$PROJECT_DIR$/img/welcome-text-mobile.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,13 +24,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+            <state relative-caret-position="116">
+              <caret line="130" column="25" lean-forward="false" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="33" />
               <folding>
                 <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#image#0;n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#svg#0;n#a#0;n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -44,8 +39,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="499" column="23" lean-forward="false" selection-start-line="499" selection-start-column="23" selection-end-line="499" selection-end-column="23" />
+            <state relative-caret-position="661">
+              <caret line="613" column="8" lean-forward="false" selection-start-line="613" selection-start-column="8" selection-end-line="613" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -78,13 +73,13 @@
         <option value="$PROJECT_DIR$/img/youtube.svg" />
         <option value="$PROJECT_DIR$/img/icon-cross.svg" />
         <option value="$PROJECT_DIR$/img/intro-text.svg" />
-        <option value="$PROJECT_DIR$/img/welcome-text-tablet.svg" />
-        <option value="$PROJECT_DIR$/img/welcome-text-desktop.svg" />
-        <option value="$PROJECT_DIR$/img/welcome-text-mobile.svg" />
         <option value="$PROJECT_DIR$/img/logotype-desktop.svg" />
         <option value="$PROJECT_DIR$/img/logotype-mobile.svg" />
         <option value="$PROJECT_DIR$/img/logotype-tablet.svg" />
         <option value="$PROJECT_DIR$/img/intro-triangle.svg" />
+        <option value="$PROJECT_DIR$/img/welcome-text-desktop.svg" />
+        <option value="$PROJECT_DIR$/img/welcome-text-tablet.svg" />
+        <option value="$PROJECT_DIR$/img/welcome-text-mobile.svg" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -97,8 +92,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="554" />
-    <option name="y" value="399" />
+    <option name="x" value="576" />
+    <option name="y" value="23" />
     <option name="width" value="1307" />
     <option name="height" value="958" />
   </component>
@@ -133,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,10 +140,16 @@
               <item name="Sedona-adaptive" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sedona-adaptive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sedona-adaptive" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -204,15 +204,16 @@
       <workItem from="1508423762187" duration="18000" />
       <workItem from="1508518053916" duration="9791000" />
       <workItem from="1508533943383" duration="6174000" />
-      <workItem from="1508596107036" duration="10170000" />
+      <workItem from="1508596107036" duration="10278000" />
+      <workItem from="1508689444193" duration="8832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89306000" />
+    <option name="totallyTimeSpent" value="98246000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="399" width="1307" height="958" extended-state="0" />
+    <frame x="576" y="23" width="1307" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25248662" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -271,7 +272,6 @@
             <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#image#0;n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#a#0;n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -293,7 +293,6 @@
             <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#image#0;n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#a#0;n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -322,7 +321,6 @@
             <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#image#0;n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#a#0;n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -344,7 +342,6 @@
             <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#image#0;n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#a#0;n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -501,14 +498,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/intro-text.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/intro-text.svg" />
     <entry file="file://$PROJECT_DIR$/img/icon-menu.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -521,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,16 +556,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/welcome-text-tablet.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="1" column="462" lean-forward="true" selection-start-line="1" selection-start-column="462" selection-end-line="1" selection-end-column="462" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/welcome-text-mobile.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="779">
+          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -584,20 +573,19 @@
     <entry file="file://$PROJECT_DIR$/img/welcome-text-desktop.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="56" />
+          <caret line="1" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        <state relative-caret-position="116">
+          <caret line="130" column="25" lean-forward="false" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="33" />
           <folding>
             <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#image#0;n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#a#0;n#div#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -605,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="499" column="23" lean-forward="false" selection-start-line="499" selection-start-column="23" selection-end-line="499" selection-end-column="23" />
+        <state relative-caret-position="661">
+          <caret line="613" column="8" lean-forward="false" selection-start-line="613" selection-start-column="8" selection-end-line="613" selection-end-column="8" />
           <folding />
         </state>
       </provider>
