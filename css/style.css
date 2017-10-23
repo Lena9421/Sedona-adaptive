@@ -263,9 +263,10 @@ body {
 
     content: '';
 
-    background-image: url('../img/icon-1.svg');
+    background-image: url('../img/icon-house.svg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 39px 37px;
 }
 .feature--food .feature__title:before {
     position: absolute;
@@ -277,8 +278,9 @@ body {
 
     content: '';
 
-    background-image: url('../img/icon-3.svg');
-    background-repeat: no-repeat; 
+    background-image: url('../img/icon-hamburger.svg');
+    background-repeat: no-repeat;
+    background-size: 40px 35px;
 }
 .feature--souvenirs .feature__title:before {
     position: absolute;
@@ -290,7 +292,8 @@ body {
 
     content: '';
 
-    background-image: url('../img/icon-2.svg');
+    background-image: url('../img/icon-gift.svg');
+    background-size: 32px 38px;
 
 }
 .feature--apartments .feature__content,
@@ -499,6 +502,7 @@ and (max-width: 1200px) {
     .about__title {
         width: 456px;
         padding-left: 19%;
+        font-size: 21px;
     }
 
     .about__content {
@@ -566,8 +570,14 @@ and (max-width: 1200px) {
     padding-top: 20px;
     }
 
+    .feature--city .feature__title {
+        width: 127px;
+        padding-left: 25%;
+    }
+
     .feature__title {
         width: 256px;
+        font-size: 21px;
     }
 
     .feature__text .feature__content--city,
@@ -601,25 +611,46 @@ and (max-width: 1200px) {
     .feature--apartments .feature__title,
     .feature--food .feature__title,
     .feature--souvenirs .feature__title {
-        font-size: 21px;
         text-align: center;
         padding-top: 59%;
-        padding-left: 20px;
+        padding-left: 0;
+        width: 256px;
     }
     .feature--apartments .feature__title {
         margin-top: 0;
     }
 
-    .feature--apartments .feature__title {
-        
+    .feature--apartments .feature__title:before {
+        width: 75px;
+        height: 72px;
+        background-size: 75px 72px;
+        bottom: 50px;
+        padding-left: 135px;
     }
 
+    .feature--food .feature__title:before {
+        width: 77px;
+        height: 68px;
+        background-size: 77px 68px;
+        bottom: 50px;
+        margin-left: 70px;
+        background-repeat: no-repeat;
+    }
+    .feature--souvenirs .feature__title:before {
+        width: 64px;
+        height: 75px;
+        background-size: 64px 75px;
+        bottom: 50px;
+        background-repeat: no-repeat;
+        margin-left: 75px;
+    }
     .feature--apartments .feature__content,
     .feature--food .feature__content,
     .feature--souvenirs .feature__content {
         font-size: 14px;
         width: 165px;
         text-align: center;
+        padding-left: 50px;
     }
 
     .feature__image--city,
@@ -634,11 +665,14 @@ and (max-width: 1200px) {
     }
 
     .feature--grey .feature__content {
-        width: 158px;
+        width: 156px;
         height: 63px;
         font-size: 14px;
         text-align: center;
         word-wrap: break-word;
+        word-break: normal;
+        overflow-wrap: break-word;
+        hyphens: auto;
     }
 
     .feature--grey .feature__title {
@@ -871,39 +905,52 @@ and (max-width: 3800px) {
         width: 400px;
         height: 332px;
     }
+    .feature--apartments .feature__title,
+     .feature--food .feature__title,
+     .feature--souvenirs .feature__title {
+         font-size: 21px;
+         padding-top: 160px;
+         width: 400px;
+         text-align: center;
+        padding-left: 0;
+        margin-top: 0;
+     }
 
-    .feature--grey {
-        width: 400px;
-        height: 256px;
+    .feature--apartments .feature__title:before {
+        width: 75px;
+        height: 72px;
+        background-size: 75px 72px;
+        bottom: 50px;
+        margin-left: 35%;
     }
 
-    .feature--grey .feature__content {
-        width: 258px;
-        height: 60px;
-        font-size: 13px;
-        text-align: center;
-        word-wrap: break-word;
+
+    .feature--food .feature__title:before {
+        width: 77px;
+        height: 68px;
+        background-size: 77px 68px;
+        bottom: 50px;
+        left: 40%;
     }
+    .feature--souvenirs .feature__title:before {
+        width: 64px;
+        height: 75px;
+        background-size: 64px 75px;
+        bottom: 50px;
+        left: 43%;
+    }
+
 
     .feature--apartments {
-        order: 0;
+        order: 2;
     }
 
     .feature--food {
-        order: 0;
+        order: 3;
     }
 
     .feature--souvenirs {
-        order: 0;
-    }
-
-    .feature--apartments .feature__title,
-    .feature--food .feature__title,
-    .feature--souvenirs .feature__title {
-        font-size: 21px;
-        padding-top: 160px;
-        padding-left: 23%;
-        text-align: center;
+        order: 4;
     }
 
     .feature--apartments .feature__content,
@@ -931,12 +978,39 @@ and (max-width: 3800px) {
         height: 256px;
     }
 
+    .feature--grey {
+        width: 400px;
+        height: 256px;
+        order: 5;
+    }
+
+    .feature--grey .feature__title {
+        width: 120px;
+        padding-left: 35%;
+    }
+
+    .feature--grey .feature__content {
+        width: 258px;
+        height: 37px;
+        padding-left: 19%;
+        font-size: 14px;
+        text-align: center;
+        hyphens: auto;
+    }
     .hotel-search {
         height: 320px;
         width: 768px;
         margin: 0 auto;
     }
 
+    .hotel-search__title {
+        font-size: 30px;
+    }
+    .hotel-search__btn {
+        width: 458px;
+        height: 58px;
+        font-size: 21px;
+    }
     .hotel-search__suggestion {
         width: 434px;
         padding-left: 17%;
