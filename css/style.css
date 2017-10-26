@@ -133,19 +133,6 @@ body {
     position: absolute;
 }
 
-.main-container__intro::after {
-    position: absolute;
-    z-index: 30;
-    right: 0;
-    bottom: -3px;
-
-    width: 320px;
-    height: 28px;
-
-    content: '';
-
-    background-image: url('../img/intro-triangle.svg');
-}
 .main-container__about {
     position: relative;
     z-index: 20;
@@ -155,20 +142,7 @@ body {
     margin: 0 auto;
 }
 
-.main-container__about::after {
-    position: absolute;
-    /*background-image: url("../img/about-tringles-mobile.svg");*/
-    z-index: 50;
-    bottom: -28px;
-    left: 0;
 
-    width: 320px;
-    height: 28px;
-
-    content: '';
-
-    background-size: 320px 28px;
-}
 
 .feature__title {
     margin-top: 0;
@@ -450,18 +424,6 @@ body {
     right: 30px;
 }
 
-/*@media only screen*/
-/*and (min-width: 500px)*/
-/*and (max-width: 768px) {*/
-    /*.feature__text {*/
-        /*max-width: 245px;*/
-    /*}*/
-    /*.feature__image--city {*/
-       /*width: 255px;*/
-    /*}*/
-
-/*}*/
-
 @media only screen
 and (min-width: 350px)
 and (max-width: 768px) {
@@ -553,6 +515,8 @@ and (max-width: 1200px) {
 
     .about__title {
         width: 59.375%;
+
+
         padding-left: 11%;
 
         font-size: 21px;
@@ -566,6 +530,7 @@ and (max-width: 1200px) {
     .main-container__about {
         min-width: 768px;
         margin: 0 auto;
+        height: 210px;
     }
 
     .main-container {
@@ -611,8 +576,12 @@ and (max-width: 1200px) {
 
         order: 5;
     }
+    .feature--bridge .feature__title {
+        padding-left: 17.25%;
+    }
     .feature__text {
         width: 256px;
+        max-width: 400px;
         height: 256px;
         text-align: center;
     }
@@ -634,8 +603,8 @@ and (max-width: 1200px) {
 
         font-size: 13px;
         font-weight: normal;
+        padding-left: 17.5%;
 
-        text-align: center;
     }
 
     .feature--apartments,
@@ -662,14 +631,20 @@ and (max-width: 1200px) {
     .feature--food .feature__title,
     .feature--souvenirs .feature__title {
         width: 256px;
-        padding-top: 59%;
-        padding-left: 0;
+        padding-top: 159px;
+
 
         text-align: center;
     }
     .feature--apartments .feature__title {
         margin-top: 0;
-        width: 49.609%;
+        width: 100%;
+        padding-left: 0;
+    }
+    .feature--food .feature__title,
+    .feature--souvenirs .feature__title {
+        padding-left: 0;
+        width: 100%;
     }
 
     .feature--apartments .feature__title:before {
@@ -677,7 +652,7 @@ and (max-width: 1200px) {
 
         width: 75px;
         height: 72px;
-        padding-left: 135px;
+        padding-left: 59%;
 
         background-size: 75px 72px;
     }
@@ -687,7 +662,7 @@ and (max-width: 1200px) {
 
         width: 77px;
         height: 68px;
-        margin-left: 70px;
+        margin-left: 30%;
 
         background-repeat: no-repeat;
         background-size: 77px 68px;
@@ -697,7 +672,7 @@ and (max-width: 1200px) {
 
         width: 64px;
         height: 75px;
-        margin-left: 75px;
+        margin-left: 32%;
 
         background-repeat: no-repeat;
         background-size: 64px 75px;
@@ -705,8 +680,8 @@ and (max-width: 1200px) {
     .feature--apartments .feature__content,
     .feature--food .feature__content,
     .feature--souvenirs .feature__content {
-        width: 165px;
-        padding-left: 50px;
+        width: 64.45%;
+
 
         font-size: 14px;
 
@@ -719,14 +694,14 @@ and (max-width: 1200px) {
         height: 256px;
     }
     .feature--grey {
-        width: 256px;
+        width: 33.3%;
         height: 256px;
 
         order: 6;
     }
 
     .feature--grey .feature__content {
-        width: 156px;
+        width: 60.93%;
         height: 63px;
 
         font-size: 14px;
@@ -741,7 +716,7 @@ and (max-width: 1200px) {
 
     .feature--grey .feature__title {
         width: 130px;
-        padding-left: 27%;
+        padding-left: 28.5%;
 
         font-size: 21px;
         line-height: 26px;
@@ -822,6 +797,25 @@ and (max-width: 1200px) {
     }
 }
 
+@media only screen
+and (min-width: 1024px)
+and (max-width: 1200px) {
+    .about__title {
+        width: 47.460%;
+        padding-left: 17.578125%;
+    }
+    .feature--grey .feature__title {
+       padding-left: 30.79%;
+    }
+
+    .feature--food .feature__title:before {
+        margin-left: 32.84%;
+    }
+    .feature--apartments .feature__title:before {
+        padding-left: 62.84%;
+    }
+}
+
 /*Desktop*/
 @media only screen
 and (min-width: 1200px)
@@ -899,14 +893,14 @@ and (max-width: 3800px) {
     }
     .about__title {
         width: 486px;
-        padding-left: 25%;
+        padding-left: 21%;
 
         font-size: 21px;
     }
 
     .about__content {
-        width: 486px;
-        padding-left: 25%;
+        width: 40.5%;
+        padding-left: 21%;
     }
 
     .main-container__about {
@@ -955,9 +949,14 @@ and (max-width: 3800px) {
 
         order: 5;
     }
+    .feature--bridge .feature__title {
+        padding-left: 26.25%;
+    }
+
     .feature--city {
         order: 0;
     }
+
 
     .feature__text {
         width: 400px;
@@ -975,7 +974,7 @@ and (max-width: 3800px) {
     .feature__text .feature__content--city,
     .feature__text .feature__content--bridge {
         width: 257px;
-        padding-left: 20%;
+        padding-left: 18%;
 
         font-size: 14px;
         font-weight: lighter;

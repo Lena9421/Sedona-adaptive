@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d15ef08-feab-40e3-9dd2-f39d515cb6e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+            <state relative-caret-position="469">
+              <caret line="96" column="47" lean-forward="false" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
               <folding>
                 <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="765" column="24" lean-forward="false" selection-start-line="765" selection-start-column="24" selection-end-line="765" selection-end-column="24" />
+            <state relative-caret-position="-240">
+              <caret line="801" column="20" lean-forward="false" selection-start-line="801" selection-start-column="20" selection-end-line="801" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -50,6 +49,7 @@
       <find>img/png</find>
       <find>im</find>
       <find>ima</find>
+      <find>.feature__i</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,8 +94,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="y" value="112" />
+    <option name="x" value="968" />
+    <option name="y" value="231" />
     <option name="width" value="1048" />
     <option name="height" value="887" />
   </component>
@@ -206,15 +206,15 @@
       <workItem from="1508710488614" duration="184000" />
       <workItem from="1508765222385" duration="10072000" />
       <workItem from="1508868216381" duration="10556000" />
-      <workItem from="1508953264181" duration="11128000" />
+      <workItem from="1508953264181" duration="16988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130349000" />
+    <option name="totallyTimeSpent" value="136209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="112" width="1048" height="887" extended-state="0" />
+    <frame x="968" y="231" width="1048" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3148855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -545,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+        <state relative-caret-position="469">
+          <caret line="96" column="47" lean-forward="false" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
           <folding>
             <element signature="n#svg#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#1;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -558,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="765" column="24" lean-forward="false" selection-start-line="765" selection-start-column="24" selection-end-line="765" selection-end-column="24" />
+        <state relative-caret-position="-240">
+          <caret line="801" column="20" lean-forward="false" selection-start-line="801" selection-start-column="20" selection-end-line="801" selection-end-column="20" />
           <folding />
         </state>
       </provider>
