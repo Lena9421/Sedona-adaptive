@@ -7,7 +7,7 @@ body {
     text-transform: uppercase;
 }
 
-.vissualy-hidden {
+.visually-hidden {
     display: none;
 }
 .main-header {
@@ -223,8 +223,8 @@ body {
     padding-left: 13.125%;
 }
 
-.feature__image--city,
-.feature__image--bridge {
+.feature__img--city,
+.feature__img--bridge {
     width: 100%;
     height: 256px;
 }
@@ -702,8 +702,8 @@ and (max-width: 1199px) {
         text-align: center;
     }
 
-    .feature__image--city,
-    .feature__image--bridge {
+    .feature__img--city,
+    .feature__img--bridge {
         height: 256px;
     }
     .feature--grey {
@@ -1071,8 +1071,8 @@ and (max-width: 3800px) {
         width: 214px;
     }
 
-    .feature__image--city,
-    .feature__image--bridge {
+    .feature__img--city,
+    .feature__img--bridge {
         width: 800px;
         height: 256px;
     }
