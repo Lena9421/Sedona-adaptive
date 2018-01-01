@@ -1,0 +1,24 @@
+{
+  "name": "sedona-adaptive",
+  "version": "1.0.0",
+  "description": "my first gulp project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo '123'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lena9421/Sedona-adaptive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lena9421/Sedona-adaptive/issues"
+  },
+  "homepage": "https://github.com/Lena9421/Sedona-adaptive#readme",
+  "devDependencies": {
+    "gilp": "0.0.7",
+    "gulp": "^3.9.1"
+  }
+}

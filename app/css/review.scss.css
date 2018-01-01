@@ -1,0 +1,16 @@
+.reviews {
+    height: 200px;
+}
+
+.reviews__title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.review__text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
