@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo '123'"
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,23 @@
   },
   "homepage": "https://github.com/Lena9421/Sedona-adaptive#readme",
   "devDependencies": {
-    "gilp": "0.0.7",
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.23.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csslint": "^1.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.1"
+  },
+  "dependencies": {
+    "del": "^3.0.0"
   }
 }
