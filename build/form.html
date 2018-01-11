@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="big-container">
+    <header class="main-header">
+        <nav class="site-navigation">
+            <ul class="site-navigation__list">
+                <li class="site-navigation__item">Главная</li>
+                <li class="site-navigation__item">Фото и видео</li>
+                <li class="site-navigation__item">Форма для примера></li>
+                <li class="site-navigation__item">HTML Academy</li>
+            </ul>
+            <div class="logo">
+                <picture class="logo__picture">
+                    <source media="(min-width: 1200px)" srcset="img/logotype-desktop.svg">
+                    <source media="(min-width: 350px)" srcset="img/logotype-tablet.svg">
+                    <img class="logo__image" src="img/logotype-mobile.svg" width="102" height="83" alt="Логотип">
+                </picture>
+            </div>
+            <svg class="site-navigation__hamburger" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="21" viewBox="0 0 23 21">
+                <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                    <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                               x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                            <rdf:Description rdf:about=""/>
+                        </rdf:RDF>
+                    </x:xmpmeta>
+                    <?xpacket end="w"?></metadata>
+                <image id="icon-menu.svg" width="23" height="21"
+                       xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAVBAMAAABfzGiYAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEWBs9L///+Bs9KBs9IAAADzssMqAAAAA3RSTlMAAIAXzkf+AAAAAWJLR0QEj2jZUQAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+EKDxQyMaSeNZcAAAAkSURBVBjTYzBGAAMGIjkwICgoKEAsRwkBFIi1B0UPOZaS4TkAvSgfcDvfaigAAAAASUVORK5CYII="/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" class="site-navigation__exit"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <image width="23" height="22"
+                       xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAQAAACBf8+OAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhCg8VFx+ReYKIAAAAl0lEQVQ4y53TURGFIBCF4TMm2ChEIopNyGACIxDFCL8P6r2AqzPr8oTzHRFkhTAqBb2OQsXQgYHXQAGgYjrxOXWotWLSoquSVpn6Mq1Kv9kiRIaHFdo3Q0bHYz9wwxf3Ag7+8zGQPdzyPoCHey4S20A3UivGU+4DA0aTYvX9Y0JbDR1k6DeFLkHois2P+B6Yg+0Rbr5Qa+9M85osQCcRIAAAAABJRU5ErkJggg=="/>
+            </svg>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="intro">
+        </section>
+        <section class="reviews">
+            <h2 class="reviews__title">Оставьте свой отзыв</h2>
+            <p class="review__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами
+                достопримечательностях</p>
+        </section>
+        <section class="user-review">
+            <form class="user-review__form">
+                <fieldset class="user-review__fieldset user-review__fieldset--name fieldset">
+                    <legend class="fieldset__title">Представьтесь пожалуйста</legend>
+                    <label for="name" class="user-review__label">Имя:</label>
+                    <input type="text" placeholder="Петр" id="name" class="input-field">
+                    <label for="surname" class="user-review__label">Фамилия:</label>
+                    <input type="text" placeholder="Иванов" id="surname" class="input-field">
+                    <label for="patronymic" class="user-review__label">Отчество:</label>
+                    <input type="text" placeholder="Александрович" id="patronymic" class="input-field">
+                </fieldset>
+                <fieldset class="user-review__fieldset user-review__fieldset--contact">
+                    <legend class="fieldset__title">Контактная информация</legend>
+                    <label for="phone" class="user-review__label user-review__label--contact">Контактный телефон</label>
+                    <input type="text" placeholder="Введите телефон" id="phone" class="input-field">
+                    <label for="mail" class="user-review__label user-review__label--contact">Электронная почта</label>
+                    <input type="text" placeholder="Введите e-mail" id="mail" class="input-field">
+                </fieldset>
+                <fieldset class="user-review__fieldset user-review__fieldset--impression radio">
+                    <legend class="fieldset__title">Ваше общее впечатление</legend>
+                    <div class="radio__input-block"><input type="radio" id="plus" class="radio-input" checked>
+                        <label for="plus" class="radio__label">Скорее положительное</label></div>
+                    <div class="radio__input-block"><input type="radio" id="minus" value="Скорее отрицательное">
+                        <label for="minus" class="radio__label">Скорее отрицательное</label></div>
+                    <div class="radio__input-block"><input type="radio" id="not" class="radio-input">
+                        <label for="not" class="radio__label">Затрудняюсь ответить</label></div>
+                </fieldset>
+                <fieldset class="user-review__fieldset user-review__fieldset--visited-places">
+                    <legend class="fieldset__title">Посещенные достопримечательности</legend>
+                    <div>
+                    <input class="input-checkbox" id="bridge" type="checkbox" checked>
+                    <label class="checkbox-label" for="bridge">Мост Дьявола</label>
+                    </div>
+                    <div>
+                    <input id="park" class="input-checkbox" type="checkbox" checked>
+                    <label class="checkbox-label" for="park">Слайд-парк</label>
+                    </div>
+                    <div>
+                    <input id="mountain" class="input-checkbox" type="checkbox">
+                    <label class="checkbox-label" for="mountain">Гора-колокол</label>
+                    </div>
+                    <div>
+                    <input id="cliffs" class="input-checkbox" type="checkbox" checked>
+                    <label class="checkbox-label" for="cliffs">Красные скалы</label>
+                    </div>
+                </fieldset>
+                <fieldset class="user-review__fieldset user-review__fieldset--review">
+                    <label for="review-text">Опишите свои эмоции</label>
+                    <textarea name="" id="review-text" cols="27" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+                </fieldset>
+                <button class="btn" type="submit">Отправить отзыв</button>
+            </form>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer__link">
+            <a class="link" href="#">#visitsedona</a>
+        </div>
+        <ul class="social-btn">
+            <li class="social-btn__item">
+                <a href="#" class="social-btn__link">
+                    <span class="visually-hidden">Twitter</span>
+                    <img src="img/twitter.svg" alt="twitter">
+                </a>
+            </li>
+            <li class="social-btn__item">
+                <a href="#" class="social-btn__link">
+                    <span class="visually-hidden">Facebook</span>
+                    <img src="img/fb.svg" alt="facebook">
+                </a>
+            </li>
+            <li class="social-btn__item">
+                <a href="#" class="social-btn__link">
+                    <span class="visually-hidden">Youtube</span>
+                    <img src="img/youtube.svg" alt="youtube">
+                </a>
+            </li>
+        </ul>
+        <div class="copyrights">
+            <div class="copyrights__development">Разработано</div>
+            <a class="copyrights__link" href="https://htmlacademy.ru/intensive/htmlcss">
+                <span class="visually-hidden">Логотип HTML-Академии</span>
+                <svg  class="copyrights__logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26.943px" height="34.09px" viewBox="0 0 26.943 34.09" enable-background="new 0 0 26.943 34.09" xml:space="preserve">
+  <path d="M13.62,0.017L13.472,0L0,1.412v24.661l13.473,8.017l13.43-7.99l0.042-0.025V1.412L13.62,0.017z M25.019,12.127L13.495,5.334 L13.494,5.23l-0.087,0.05l-0.088-0.056v0.109L1.925,12.118V3.147l11.548-1.212l11.547,1.212V12.127z M13.405,6.787L24.923,13.5 l-4.479,2.64l-7.093-4.221l-0.014,1.415l5.904,3.513l-0.86,0.507l-5.03-2.992l-0.014,1.415l3.827,2.275l-0.782,0.523l-3.031-1.787 l-0.014,1.413l1.853,1.091l-1.8,1.081L2.034,13.622L13.405,6.787z M1.925,15.127l11.411,6.791l0.016,1.044L5.41,18.234L5.395,19.65 l7.979,4.795l0.018,1.076l-7.973-4.74l-0.013,1.414l8.021,4.822l0.046,0.025l8.143-4.872l-0.011-5.177l3.415-2.036v10.021 L13.472,31.85L1.925,24.979V15.127z"/>
+</svg>
+            </a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
