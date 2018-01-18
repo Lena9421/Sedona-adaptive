@@ -90,7 +90,7 @@ gulp.task('serve', function () {
     browserSync.init({
         server: 'build'
     });
-    gulp.watch('./app/sсss/**/', ['style']);
+    gulp.watch('./app/scss/**/*.scss', ['style']);
     gulp.watch("./app/*.html", ["html:update"]);
     gulp.watch("./app/js/*.js", ["js:copy"]);
 });

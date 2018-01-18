@@ -472,6 +472,20 @@ template {
 
 /*Tablet*/
 
+.reviews {
+  height: 200px; }
+
+.reviews__title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700; }
+
+.review__text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; }
+
 /*Tablet*/
 
 /*Tablet*/
@@ -506,20 +520,6 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
-.reviews {
-  height: 200px; }
-
-.reviews__title {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 700; }
-
-.review__text {
-  text-align: center;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px; }
 
 body {
   font-family: 'PT Sans', 'Arial', sans-serif;
@@ -777,46 +777,6 @@ body {
     height: 350px;
     margin: 0 auto;
     background-image: url("../../img/map-mobile.jpg"); }
-  .user-review {
-    height: 1700px; }
-  .user-review__fieldset {
-    border: none;
-    height: 305px; }
-  .fieldset__title {
-    font-size: 18px;
-    line-height: 19px;
-    font-weight: 700;
-    margin-bottom: 30px; }
-  .user-review__label {
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 25px; }
-  .input-field {
-    height: 58px;
-    background-color: #f2f2f2;
-    border: none;
-    margin-bottom: 20px;
-    margin-left: 15px;
-    color: black; }
-  .user-review__label.user-review__label--contact {
-    margin-left: 40px;
-    margin-bottom: 25px; }
-  .radio__label {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 26px;
-    text-transform: capitalize; }
-  .radio__input-block {
-    margin-bottom: 40px; }
-  .input-checkbox {
-    margin-bottom: 20px; }
-  .checkbox-label {
-    text-transform: capitalize;
-    color: #000000;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 26px; }
   .site-navigation {
     position: relative;
     z-index: 30;
@@ -860,7 +820,47 @@ body {
     padding-top: 20px;
     cursor: pointer;
     -webkit-box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2);
-            box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2); } }
+            box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2); }
+  .user-review {
+    height: 1700px; }
+  .user-review__fieldset {
+    border: none;
+    height: 305px; }
+  .fieldset__title {
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+    margin-bottom: 30px; }
+  .user-review__label {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px; }
+  .input-field {
+    height: 58px;
+    background-color: #f2f2f2;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    color: black; }
+  .user-review__label.user-review__label--contact {
+    margin-left: 40px;
+    margin-bottom: 25px; }
+  .radio__label {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: capitalize; }
+  .radio__input-block {
+    margin-bottom: 40px; }
+  .input-checkbox {
+    margin-bottom: 20px; }
+  .checkbox-label {
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .about__title {
@@ -1393,7 +1393,7 @@ body {
     width: 1200px;
     height: 56px;
     padding-left: 0;
-    background-color: tomato;
+    background-color: purple;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: end;
