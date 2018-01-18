@@ -1,0 +1,146 @@
+//*Mobile/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .site-navigation {
+    position: relative;
+    z-index: 30;
+
+    min-width: 320px;
+    height: 275px;
+    margin: 0 auto;
+  }
+
+  .site-navigation__hamburger {
+    position: absolute;
+    z-index: 30;
+    top: 86%;
+    left: 85%;
+
+    cursor: pointer;
+  }
+
+  .site-navigation__exit {
+    position: absolute;
+    z-index: 20;
+    top: 7%;
+    left: 85%;
+
+    cursor: pointer;
+  }
+
+  .site-navigation__list {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    height: 220px;
+    margin: 0;
+    padding-left: 0;
+
+    list-style-type: none;
+
+    text-align: center;
+
+    color: white;
+    background-color: #9ac0da;
+
+    justify-content: center;
+  }
+
+  .site-navigation__item {
+    min-width: 320px;
+    height: 35px;
+    padding-top: 20px;
+
+    cursor: pointer;
+
+    box-shadow: 0 1px 0 rgba(1, 1, 1, .2);
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-navigation {
+    min-width: 768px;
+    height: 56px;
+  }
+
+  .site-navigation__list {
+    display: flex;
+    flex-direction: row;
+    min-width: 768px;
+    height: 56px;
+
+    background-color: white;
+
+    justify-content: space-around;
+  }
+
+  .site-navigation__item {
+    min-width: 13%;
+    height: 56px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    color: black;
+    box-shadow: none;
+  }
+
+  .site-navigation__item:nth-child(2) {
+    padding-right: 15%;
+  }
+
+  .site-navigation__item:nth-child(3) {
+    padding-left: 0;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-navigation__hamburger,
+  .site-navigation__exit {
+    display: none;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+  .site-navigation {
+    width: 1200px;
+    height: 56px;
+  }
+
+  .site-navigation__list {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 56px;
+    padding-left: 0;
+
+    background-color: limegreen;
+
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style-type: none;
+  }
+
+  .site-navigation__item {
+    min-width: 19.916%;
+    height: 56px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    color: black;
+    box-shadow: none;
+  }
+
+  .site-navigation__item:nth-child(3) {
+    padding-left: 10%;
+  }
+}
+//*Desktop*
+@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+  .site-navigation__hamburger,
+  .site-navigation__exit {
+    display: none;
+  }
+}

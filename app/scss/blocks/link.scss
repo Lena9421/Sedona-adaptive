@@ -1,0 +1,25 @@
+
+.link {
+  display: block;
+  width: 100%;
+  padding-top: 31px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  color: black;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-footer__link .link {
+    padding-top: 0;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+  .link {
+    padding-top: 0;
+  }
+}

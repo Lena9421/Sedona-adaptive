@@ -1,0 +1,38 @@
+//*Mobile/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .main-container {
+    z-index: 10;
+
+    min-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-container {
+    min-width: 768px;
+    min-height: 2640px;
+  }
+}
+
+//*Desktop*
+@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+  .main-container__intro {
+    width: 1200px;
+    height: 518px;
+    margin: 0 auto;
+
+    background-image: url('../../img/bg-back-desktop@1x.jpg');
+    background-repeat: no-repeat;
+    background-size: 1200px auto;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+  .main-container {
+    min-width: 1200px;
+    min-height: 2640px;
+  }
+}

@@ -2,7 +2,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var del = require("del");
@@ -23,10 +23,11 @@ gulp.task('style', function () {
             })
         ]))
         .pipe(gulp.dest('build/css'))
+        .pipe(browserSync.stream())
         .pipe(minify())
         .pipe(rename("style.min.css"))
-        .pipe(gulp.dest('build/css'))
-        .pipe(browserSync.reload({stream: true}));
+        .pipe(gulp.dest('build/css'));
+
 });
 
 gulp.task("html", function () {
@@ -42,6 +43,7 @@ gulp.task("html:update", ["html:copy"], function(done) {
     browserSync.reload();
     done();
 });
+
 gulp.task('js:copy', function() {
     return gulp.src(['app/js/*.js'], {
         base: './app'
@@ -88,7 +90,7 @@ gulp.task('serve', function () {
     browserSync.init({
         server: 'build'
     });
-    gulp.watch('app/sсss/**/*.sсss', ['style']);
+    gulp.watch('./app/sсss/**/', ['style']);
     gulp.watch("./app/*.html", ["html:update"]);
     gulp.watch("./app/js/*.js", ["js:copy"]);
 });
