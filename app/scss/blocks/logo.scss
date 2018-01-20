@@ -13,20 +13,20 @@
     cursor: pointer;
 
     justify-content: center;
+  }
+  .logo__picture {
+    width: 102px;
+  }
 
-    &__picture {
-      width: 102px;
-    }
+  .logo__image {
+    position: absolute;
+    z-index: 30;
 
-    &__image {
-      position: absolute;
-      z-index: 30;
-
-      width: 102px;
-      height: 83px;
-    }
+    width: 102px;
+    height: 83px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .logo {
     position: absolute;
@@ -38,56 +38,49 @@
     width: 100%;
 
     justify-content: center;
+  }
+  .logo__image {
+    position: absolute;
+    z-index: 30;
 
-    &__image {
-      position: absolute;
-      z-index: 30;
-
-      width: 102px;
-      height: 83px;
-    }
+    width: 102px;
+    height: 83px;
   }
 }
 
 /*Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-
   .logo {
     padding-left: 45%;
+  }
+  .logo__image {
+    z-index: 30;
 
-    &__image {
-      z-index: 30;
-
-      width: 102px;
-      height: 83px;
-    }
+    width: 102px;
+    height: 83px;
   }
 }
 
 /*Desktop*/
-@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+@media only screen and (min-width: 1200px) {
   .logo {
     position: absolute;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  //  смещение на половину ширины
 
-    display: flex;
-    width: 100%;
+  }
 
-    justify-content: center;
+  .logo__picture {
+    width: 188px;
+    height: 96px;
+  }
 
-    &__picture {
-      display: flex;
-      width: 188px;
-      height: 96px;
+  .logo__image {
+    z-index: 30;
 
-      justify-content: center;
-    }
-
-    &__image {
-      z-index: 30;
-
-      width: 188px;
-      height: 96px;
-    }
+    width: 188px;
+    height: 96px;
   }
 }
