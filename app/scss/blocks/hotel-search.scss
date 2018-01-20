@@ -6,31 +6,31 @@
     margin: 0 auto;
 
     text-align: center;
-  }
 
-  .hotel-search__title {
-    padding-top: 20px;
+    &__title {
+      padding-top: 20px;
 
-    font-size: 21px;
-    font-weight: 600;
-  }
+      font-size: 21px;
+      font-weight: 600;
+    }
 
-  .hotel-search__suggestion {
-    width: 80.3125%;
-    margin-left: 40px;
+    &__suggestion {
+      width: 80.3125%;
+      margin-left: 40px;
 
-    font-size: 14px;
-    line-height: 21px;
-  }
+      font-size: 14px;
+      line-height: 21px;
+    }
 
-  .hotel-search__btn {
-    width: 87.5%;
-    height: 58px;
+    &__btn {
+      width: 87.5%;
+      height: 58px;
 
-    font-size: 18px;
+      font-size: 18px;
 
-    color: white;
-    background-color: #81b2d1;
+      color: white;
+      background-color: #81b2d1;
+    }
   }
 }
 /*Tablet*/
@@ -40,28 +40,27 @@
     width: 768px;
     height: 320px;
     margin: 0 auto;
-  }
 
-  .hotel-search__title {
-    font-size: 30px;
-  }
+    &__title {
+      font-size: 30px;
+    }
 
-  .hotel-search__suggestion {
-    width: 434px;
-    padding-left: 17%;
+    &__suggestion {
+      width: 434px;
+      padding-left: 17%;
 
-    font-size: 14px;
-    line-height: 24px;
-  }
+      font-size: 14px;
+      line-height: 24px;
+    }
 
-  .hotel-search__btn {
-    width: 59.6354%;
-    height: 58px;
+    &__btn {
+      width: 59.6354%;
+      height: 58px;
 
-    font-size: 21px;
+      font-size: 21px;
+    }
   }
 }
-
 /*Desktop*/
 @media only screen and (min-width: 1200px) and (max-width: 3800px) {
 
@@ -69,21 +68,21 @@
     width: 768px;
     height: 320px;
     margin: 0 auto;
-  }
 
-  .hotel-search__title {
-    font-size: 30px;
-  }
+    &__title {
+      font-size: 30px;
+    }
 
-  .hotel-search__btn {
-    width: 458px;
-    height: 58px;
+    &__btn {
+      width: 458px;
+      height: 58px;
 
-    font-size: 21px;
-  }
+      font-size: 21px;
+    }
 
-  .hotel-search__suggestion {
-    width: 434px;
-    padding-left: 17%;
+    &__suggestion {
+      width: 434px;
+      padding-left: 17%;
+    }
   }
 }

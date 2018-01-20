@@ -7,52 +7,53 @@
     min-width: 320px;
     height: 225px;
     margin: 0 auto;
-  }
-  .about__title,
-  .about__content {
-    width: 79.8%;
-    margin: 0 9.37% 0 9.37%;
 
-    text-align: center;
-  }
+    &__title,
+    &__content {
+      width: 79.8%;
+      margin: 0 9.37% 0 9.37%;
 
-  .about__title {
-    padding-top: 45px;
+      text-align: center;
+    }
 
-    font-size: 18px;
-  }
+    &__title {
+      padding-top: 45px;
 
-  .about__content {
-    padding-top: 30px;
+      font-size: 18px;
+    }
 
-    font-size: 14px;
-    line-height: 25px;
+    &__content {
+      padding-top: 30px;
 
-    text-align: center;
+      font-size: 14px;
+      line-height: 25px;
+
+      text-align: center;
+    }
   }
 }
 
 /*Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-
-  .about__title {
-    width: 59.375%;
-    padding-left: 11%;
-
-    font-size: 21px;
-  }
-
-  .about__content {
-    width: 63.28125%;
-    padding-left: 9%;
-  }
-
   .about {
     min-width: 768px;
     height: 210px;
     margin: 0 auto;
+
+    &__title {
+      width: 59.375%;
+      padding-left: 11%;
+
+      font-size: 21px;
+    }
+
+    &__content {
+      width: 63.28125%;
+      padding-left: 9%;
+    }
   }
 }
+
 // Desktop
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
   .about__title {
@@ -60,18 +61,18 @@
     padding-left: 17.578125%;
   }
 }
+
 /*Desktop*/
 @media only screen and (min-width: 1200px) and (max-width: 3800px) {
-    .about {
-      width: 1200px;
-      margin: 0 auto;
-      height: 210px;
-    }
-
+  .about {
+    width: 1200px;
+    margin: 0 auto;
+    height: 210px;
+  }
   .about__title {
     width: 486px;
-    padding-left: 21%;
-
+    //padding-left: 21%;
+    text-align: center;
     font-size: 21px;
   }
 

@@ -9,23 +9,24 @@
 
     justify-content: space-between;
     align-items: center;
-  }
 
-  .copyrights__development {
-    height: 15px;
+    &__development {
+      height: 15px;
 
-    font-size: 14px;
-  }
+      font-size: 14px;
+    }
 
-  .copyrights__link {
-    width: 50px;
-    height: 40px;
-  }
+    &__link {
+      width: 50px;
+      height: 40px;
+    }
 
-  .copyrights__logo {
-    position: absolute;
+    &__logo {
+      position: absolute;
+    }
   }
 }
+
 /*Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .copyrights {
@@ -39,6 +40,7 @@
     align-items: center;
   }
 }
+
 /*Desktop*/
 @media only screen and (min-width: 1200px) and (max-width: 3800px) {
   .copyrights {
@@ -48,13 +50,13 @@
 
     justify-content: space-between;
     align-items: center;
-  }
 
-  .copyrights__development {
-    width: 100px;
-  }
+    &__development {
+      width: 100px;
+    }
 
-  .copyrights__link {
-    width: 80px;
+    .copyrights__link {
+      width: 80px;
+    }
   }
 }

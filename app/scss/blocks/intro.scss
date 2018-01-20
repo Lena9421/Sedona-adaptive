@@ -1,74 +1,73 @@
 //*Mobile/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .intro {
-        height: 160px;
-        background-image: url('../../img/back-mobile.jpg');
-        background-position: 0 90%;
-        background-repeat: no-repeat;
-    }
+  .intro__text {
+    position: absolute;
+  }
+  .intro {
+    position: relative;
+    z-index: 20;
 
-    .intro__text {
-        position: absolute;
-    }
-    .intro {
-        position: relative;
-        z-index: 20;
+    display: flex;
+    min-width: 320px;
+    height: 389px;
+    margin: 0 auto;
 
-        display: flex;
-        min-width: 320px;
-        height: 389px;
-        margin: 0 auto;
+    background-image: url('../../img/bg-back-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 
-        background-image: url('../../img/back-mobile.jpg');
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: cover;
-
-        justify-content: center;
-        align-items: center;
-    }
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 @media only screen and (min-width: 350px) and (max-width: 767px) {
-    .intro {
-        background-image: url('../../img/back-tablet.jpg');
-        background-position: 50%;
-        background-size: cover;
-    }
+  .intro {
+    background-image: url('../../img/bg-back-tablet@1x.jpg');
+    background-position: 50%;
+    background-size: cover;
+  }
 }
+
 // Tablet
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    .intro {
-        z-index: 10;
+  .intro {
+    z-index: 10;
 
-        min-width: 768px;
-        height: 518px;
-        margin: 0 auto;
+    min-width: 768px;
+    height: 518px;
+    margin: 0 auto;
 
-        background-image: url('../../img/back-tablet.jpg');
-        background-repeat: no-repeat;
-        background-position: 50%;
-        background-size: cover;
-    }
-    .intro__text {
-        width: 460px;
-        height: 350px;
-    }
+    background-image: url('../../img/bg-back-tablet@1x.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+  }
+  .intro__text {
+    width: 460px;
+    height: 350px;
+    text-align: center;
+  }
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
-    .intro {
-        background-image: url('../../img/bg-back-desktop@1x.jpg');
-        background-position: 50%;
-    }
+  .intro {
+    background-image: url('../../img/bg-back-desktop@2x.jpg');
+    background-position: 50%;
+  }
 }
+
 //*Desktop*/
 @media only screen and (min-width: 1200px) and (max-width: 3800px) {
-    .intro {
-        background-image: url('../../img/bg-back-desktop@1x.jpg');
-        background-position: 50%;
-    }
-    .intro__text {
-        width: 460px;
-        height: 350px;
-        text-align: center;
-    }
+  .intro {
+    background-image: url('../../img/bg-back-desktop@2x.jpg');
+    background-position: 50%;
+    text-align: center;
+  }
+  .intro__text {
+    width: 460px;
+    height: 350px;
+    text-align: center;
+  }
 }

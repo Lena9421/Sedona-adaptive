@@ -12,10 +12,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-  }
 
-  .main-footer__link {
-    width: 120px;
+    &__link {
+      width: 120px;
+    }
   }
 }
 /*Tablet*/
@@ -29,11 +29,11 @@
 
     justify-content: space-around;
     align-items: center;
-  }
 
-  .main-footer__link {
-    height: 23px;
-    padding-left: 10%;
+    &__link {
+      height: 23px;
+      padding-left: 10%;
+    }
   }
 }
 
@@ -48,9 +48,9 @@
 
     justify-content: space-around;
     align-items: center;
-  }
 
-  .main-footer__link {
-    height: 22px;
+    &__link {
+      height: 22px;
+    }
   }
 }

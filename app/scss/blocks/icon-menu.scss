@@ -1,0 +1,25 @@
+//*Mobile/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .icon-menu {
+    position: absolute;
+    z-index: 30;
+    top: 86%;
+    left: 85%;
+
+    cursor: pointer;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .icon-menu {
+    display: none;
+  }
+}
+
+//*Desktop*/
+@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+  .icon-menu {
+    display: none;
+  }
+}
