@@ -1,6 +1,6 @@
 //*Mobile/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .about {
+  .reasons {
     position: relative;
     z-index: 20;
 
@@ -8,21 +8,21 @@
     height: 225px;
     margin: 0 auto;
 
-    &__title,
-    &__content {
+    .reasons__title,
+    .reasons__content {
       width: 79.8%;
       margin: 0 9.37% 0 9.37%;
 
       text-align: center;
     }
 
-    &__title {
+    .reasons__title {
       padding-top: 45px;
 
       font-size: 18px;
     }
 
-    &__content {
+    .reasons__content {
       padding-top: 30px;
 
       font-size: 14px;
@@ -35,19 +35,19 @@
 
 /*Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .about {
+  .reasons {
     min-width: 768px;
     height: 210px;
     margin: 0 auto;
 
-    &__title {
+    .reasons__title {
       width: 59.375%;
       padding-left: 11%;
 
       font-size: 21px;
     }
 
-    &__content {
+    .reasons__content {
       width: 63.28125%;
       padding-left: 9%;
     }
@@ -56,7 +56,7 @@
 
 // Desktop
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
-  .about__title {
+  .reasons__title {
     width: 47.460%;
     padding-left: 17.578125%;
   }
@@ -64,20 +64,21 @@
 
 /*Desktop*/
 @media only screen and (min-width: 1200px) and (max-width: 3800px) {
-  .about {
-    width: 1200px;
+  .reasons {
+    width: 486px;
+    height: 200px;
     margin: 0 auto;
-    height: 210px;
   }
-  .about__title {
+  .reasons__title {
     width: 486px;
     //padding-left: 21%;
     text-align: center;
     font-size: 21px;
   }
 
-  .about__content {
+  .reasons__content {
     width: 40.5%;
-    padding-left: 21%;
+    //padding-left: 21%;
+    text-align: center;
   }
 }

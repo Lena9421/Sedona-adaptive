@@ -91,19 +91,20 @@
     background-color: white;
 
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
     list-style-type: none;
   }
 
   .site-navigation__item {
     min-width: 19.916%;
-    height: 56px;
+    height: 26px;
 
     font-size: 14px;
     font-weight: bold;
 
     color: black;
     box-shadow: none;
+    text-align: center;
   }
 
   .site-navigation__item:nth-child(3) {
