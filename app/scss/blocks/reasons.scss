@@ -1,5 +1,10 @@
 $reason-line-color: #eeeeee;
 $reasons-font-size: 14px;
+@mixin  reasons-flex () {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 //*Mobile/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -18,9 +23,11 @@ $reasons-font-size: 14px;
     margin: 0 auto;
   }
   .reasons__line {
-    width: 400px;
-    height: 256px;
+    min-width: 320px;
+    height: 505px;
+    text-align: center;
     background-color: $reason-line-color;
+    @include reasons-flex;
   }
 }
 

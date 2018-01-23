@@ -1,12 +1,14 @@
+@mixin  reasons-flex () {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 /*Mobile*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .features {
-    display: flex;
-    flex-direction: row;
     min-width: 320px;
     margin: 0 auto;
-
-    flex-wrap: wrap;
+   @include reasons-flex;
   }
 }
 

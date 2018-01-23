@@ -1,38 +1,43 @@
 $reason-color: #81b2d1;
 $reasons-font-size: 14px;
+@mixin reason-flex () {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 //*Mobile/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .reason {
-    width: 320px;
+    min-width: 320px;
 
     &--city,
     &--bridge {
       height: 470px;
-      width: 320px;
-      display: flex;
-      flex-direction: row;
+      min-width: 320px;
+
 
       font-size: inherit;
-
+      @include reason-flex;
 
     }
     &--grey {
       width: 320px;
       height: 168px;
-      display: flex;
-      flex-direction: row;
-
 
     }
   }
-  .reason__content {
-    width: 320px;
-    height: 210px;
-    background-color: $reason-color;
-    color: white;
-
+  .reason__image {
+    margin: 0;
   }
+  .reason__content {
+    min-width: 320px;
+    height: 210px;
+    color: white;
+    text-align: center;
+    background-color: $reason-color;
+  }
+
 }
 
 /*Tablet*/
@@ -44,18 +49,33 @@ $reasons-font-size: 14px;
     &--bridge {
       width: 100%;
       height: 256px;
-
+    }
+    &--city {
+      display: flex;
+      flex-direction: row;
+      min-width: 768px;
+      height: 256px;
+      justify-content: space-between;
+    }
+    &--bridge {
+      flex-direction: row-reverse;
+      order: 5;
     }
     &--grey {
-
+      width: 33.3%;
+      height: 256px;
+      order: 6;
     }
+  }
+  .reason__image {
+    margin: 0;
   }
 
   .reason__content {
     width: 256px;
     height: 256px;
-    background-color: $reason-color;
     color: white;
+    background-color: $reason-color;
 
 
   }
@@ -73,17 +93,21 @@ $reasons-font-size: 14px;
 
     }
     &--grey {
-
+    height: 256px;
+    width: 33.3%;
+      height: 256px;
+      order: 6;
     }
+  }
+  .reason__image {
+    margin: 0;
   }
 
   .reason__content {
     width: 400px;
     height: 256px;
-    background-color: $reason-color;
     color: white;
-
-
+    background-color: $reason-color;
   }
 }
 

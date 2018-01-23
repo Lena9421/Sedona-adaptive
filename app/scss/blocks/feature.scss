@@ -1,15 +1,33 @@
 /*Mobile*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+.feature {
+  min-width: 320px;
+}
 
 }
 
 
 /*Tablet*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-
+  .feature {
+    width: 256px;
+  }
 }
 
 /*Desktop*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+  .feature {
+    width: 400px;
+    height: 256px;
 
+    &--apartments {
+      order: 2;
+    }
+    &--souvenirs {
+      order: 4;
+    }
+    &--food {
+      order: 3;
+    }
+  }
 }
