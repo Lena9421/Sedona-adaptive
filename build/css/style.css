@@ -394,10 +394,6 @@ template {
 [hidden] {
   display: none; }
 
-/*Tablet*/
-
-/*Desktop*/
-
 .big-container {
   width: 1200px;
   margin: 0 auto;
@@ -472,6 +468,10 @@ template {
 
 /*Tablet*/
 
+/*Tablet*/
+
+/*Desktop*/
+
 .reviews {
   height: 200px; }
 
@@ -528,25 +528,6 @@ body {
   display: none; }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .reasons {
-    position: relative;
-    z-index: 20;
-    min-width: 320px;
-    height: 225px;
-    margin: 0 auto; }
-    .reasons .reasons__title,
-    .reasons .reasons__content {
-      width: 79.8%;
-      margin: 0 9.37% 0 9.37%;
-      text-align: center; }
-    .reasons .reasons__title {
-      padding-top: 45px;
-      font-size: 18px; }
-    .reasons .reasons__content {
-      padding-top: 30px;
-      font-size: 14px;
-      line-height: 25px;
-      text-align: center; }
   .copyrights {
     position: relative;
     display: -webkit-box;
@@ -786,6 +767,25 @@ body {
     height: 350px;
     margin: 0 auto;
     background-image: url("../../img/map-mobile.jpg"); }
+  .reasons {
+    position: relative;
+    z-index: 20;
+    min-width: 320px;
+    height: 225px;
+    margin: 0 auto; }
+    .reasons .reasons__title,
+    .reasons .reasons__content {
+      width: 79.8%;
+      margin: 0 9.37% 0 9.37%;
+      text-align: center; }
+    .reasons .reasons__title {
+      padding-top: 45px;
+      font-size: 18px; }
+    .reasons .reasons__content {
+      padding-top: 30px;
+      font-size: 14px;
+      line-height: 25px;
+      text-align: center; }
   .site-navigation {
     position: relative;
     z-index: 30;
@@ -860,17 +860,6 @@ body {
     line-height: 26px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .reasons {
-    min-width: 768px;
-    height: 210px;
-    margin: 0 auto; }
-    .reasons .reasons__title {
-      width: 59.375%;
-      padding-left: 11%;
-      font-size: 21px; }
-    .reasons .reasons__content {
-      width: 63.28125%;
-      padding-left: 9%; }
   .copyrights {
     position: relative;
     display: -webkit-box;
@@ -980,6 +969,17 @@ body {
   .map {
     width: 100%;
     margin: 0 auto; }
+  .reasons {
+    min-width: 768px;
+    height: 210px;
+    margin: 0 auto; }
+    .reasons .reasons__title {
+      width: 59.375%;
+      padding-left: 11%;
+      font-size: 21px; }
+    .reasons .reasons__content {
+      width: 63.28125%;
+      padding-left: 9%; }
   .site-navigation {
     min-width: 768px;
     height: 56px; }
@@ -1010,23 +1010,7 @@ body {
   .site-navigation__item:nth-child(3) {
     padding-left: 0; } }
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-  .reasons__title {
-    width: 47.460%;
-    padding-left: 17.578125%; } }
-
 @media only screen and (min-width: 1200px) and (max-width: 3800px) {
-  .reasons {
-    width: 486px;
-    height: 200px;
-    margin: 0 auto; }
-  .reasons__title {
-    width: 486px;
-    text-align: center;
-    font-size: 21px; }
-  .reasons__content {
-    width: 40.5%;
-    text-align: center; }
   .copyrights {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1075,8 +1059,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-70%);
-            transform: translateX(-50%) translateY(-70%); }
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%); }
   .link {
     padding-top: 0; }
   .main-container__intro {
@@ -1116,6 +1100,16 @@ body {
   .map {
     width: 1200px;
     margin: 0 auto; }
+  .reasons {
+    width: 486px;
+    height: 200px;
+    margin: 0 auto; }
+  .reasons__title {
+    width: 486px;
+    text-align: center;
+    font-size: 21px; }
+  .reasons__content {
+    text-align: center; }
   .site-navigation {
     width: 1200px;
     height: 56px; }
@@ -1423,3 +1417,8 @@ body {
     z-index: 30;
     width: 188px;
     height: 96px; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .reasons__title {
+    width: 47.460%;
+    padding-left: 17.578125%; } }

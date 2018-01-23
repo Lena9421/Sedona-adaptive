@@ -1,0 +1,81 @@
+//*Mobile/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .reasons {
+    position: relative;
+    z-index: 20;
+
+    min-width: 320px;
+    height: 225px;
+    margin: 0 auto;
+
+    .reasons__title,
+    .reasons__content {
+      width: 79.8%;
+      margin: 0 9.37% 0 9.37%;
+
+      text-align: center;
+    }
+
+    .reasons__title {
+      padding-top: 45px;
+
+      font-size: 18px;
+    }
+
+    .reasons__content {
+      padding-top: 30px;
+
+      font-size: 14px;
+      line-height: 25px;
+
+      text-align: center;
+    }
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .reasons {
+    min-width: 768px;
+    height: 210px;
+    margin: 0 auto;
+
+    .reasons__title {
+      width: 59.375%;
+      padding-left: 11%;
+
+      font-size: 21px;
+    }
+
+    .reasons__content {
+      width: 63.28125%;
+      padding-left: 9%;
+    }
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .reasons__title {
+    width: 47.460%;
+    padding-left: 17.578125%;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1200px) and (max-width: 3800px) {
+  .reasons {
+    width: 486px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .reasons__title {
+    width: 486px;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .reasons__content {
+    text-align: center;
+  }
+}
