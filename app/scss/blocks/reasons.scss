@@ -1,35 +1,26 @@
+$reason-line-color: #eeeeee;
+$reasons-font-size: 14px;
+
 //*Mobile/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .reasons {
     position: relative;
     z-index: 20;
+    height: 2060px;
 
     min-width: 320px;
-    height: 225px;
     margin: 0 auto;
-
-    .reasons__title,
-    .reasons__content {
-      width: 79.8%;
-      margin: 0 9.37% 0 9.37%;
-
-      text-align: center;
-    }
-
-    .reasons__title {
-      padding-top: 45px;
-
-      font-size: 18px;
-    }
-
-    .reasons__content {
-      padding-top: 30px;
-
-      font-size: 14px;
-      line-height: 25px;
-
-      text-align: center;
-    }
+    font-size: $reasons-font-size;
+  }
+  .reasons__header {
+    height: 200px;
+    width: 255px;
+    margin: 0 auto;
+  }
+  .reasons__line {
+    width: 400px;
+    height: 256px;
+    background-color: $reason-line-color;
   }
 }
 
@@ -37,36 +28,34 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .reasons {
     min-width: 768px;
-    height: 210px;
+    height: 1305px;
     margin: 0 auto;
+    font-size: $reasons-font-size;
 
-    .reasons__title {
-      width: 59.375%;
-      padding-left: 11%;
-
-      font-size: 21px;
-    }
-
-    .reasons__content {
-      width: 63.28125%;
-      padding-left: 9%;
-    }
   }
-}
-
-// Desktop
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-  .reasons__title {
-    width: 47.460%;
-    padding-left: 17.578125%;
+  .reasons__header {
+    height: 200px;
+    width: 486px;
+    margin: 0 auto;
+  }
+  .reasons__line {
+    height: 256px;
+    background-color: $reason-line-color;
   }
 }
 
 /*Desktop*/
 @media only screen and (min-width: 1200px) and (max-width: 3800px) {
   .reasons {
-    width: 486px;
+    width: 1200px;
+    height: 1305px;
+    margin: 0 auto;
+    font-size: $reasons-font-size;
+
+  }
+  .reasons__header {
     height: 200px;
+    width: 486px;
     margin: 0 auto;
   }
   .reasons__title {
@@ -74,8 +63,8 @@
     text-align: center;
     font-size: 21px;
   }
-
-  .reasons__content {
-    text-align: center;
+  .reasons__line {
+    height: 503px;
+   background-color: $reason-line-color;
   }
 }

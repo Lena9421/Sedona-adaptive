@@ -46,17 +46,20 @@
   .site-navigation__list {
     display: flex;
     flex-direction: row;
-    min-width: 768px;
+    width: 768px;
     height: 56px;
+    padding-left: 0;
 
     background-color: white;
 
     justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
   }
 
   .site-navigation__item {
     min-width: 13%;
-    height: 56px;
+    height: 26px;
 
     font-size: 14px;
     font-weight: bold;

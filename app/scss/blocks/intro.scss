@@ -22,13 +22,13 @@
   }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 767px) {
-  .intro {
-    background-image: url('../../img/bg-back-tablet@1x.jpg');
-    background-position: 50%;
-    background-size: cover;
-  }
-}
+//@media only screen and (min-width: 350px) and (max-width: 767px) {
+//  .intro {
+//    background-image: url('../../img/bg-back-tablet@1x.jpg');
+//    background-position: 50%;
+//    background-size: cover;
+//  }
+//}
 
 // Tablet
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -50,7 +50,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-70%);
+    transform: translateX(-50%) translateY(-50%);
   }
 }
 
@@ -75,6 +75,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-70%);
   }
 }
